@@ -64,8 +64,8 @@
       <file leaf-file-name="mitprotocolimpl.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/traffic/mitprotocolimpl.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -170,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/traffic/mitprotocol.h" />
         <option value="$PROJECT_DIR$/src/traffic/mitprotocolimpl.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/traffic/mitprotocolimpl.h" />
         <option value="$PROJECT_DIR$/test/mytest.cpp" />
+        <option value="$PROJECT_DIR$/src/traffic/mitprotocolimpl.h" />
       </list>
     </option>
   </component>
@@ -537,12 +537,12 @@
       <workItem from="1518097333137" duration="711000" />
       <workItem from="1518098278960" duration="3762000" />
       <workItem from="1521685041481" duration="4883000" />
-      <workItem from="1521713272250" duration="35000" />
+      <workItem from="1521713272250" duration="177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148913000" />
+    <option name="totallyTimeSpent" value="149055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -998,8 +998,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/traffic/mitprotocolimpl.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding />
         </state>
       </provider>

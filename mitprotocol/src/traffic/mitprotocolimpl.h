@@ -31,7 +31,6 @@ private:
     string mitFilePath;
     string mitFileName;
     deque <string> mitSufixs;
-
     deque <deque <int>> channelDat;
     deque <MitProtocolAnnNode> annNodes;
 
