@@ -1,0 +1,3 @@
+/home/code/mitprotocol/doit/build/centos_x64_python/objfolder/CMakeFiles/rebuild_cache.dir
+/home/code/mitprotocol/doit/build/centos_x64_python/objfolder/CMakeFiles/edit_cache.dir
+/home/code/mitprotocol/doit/build/centos_x64_python/objfolder/CMakeFiles/mitprotocol.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/mymytest.dir/mytest.cpp.o  -o mymytest -rdynamic ../libmitprotocol.a 

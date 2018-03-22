@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/mycross/mycross.h
+android/log.h
+-
+stdio.h
+-
+
+../src/traffic/mitprotocol.h
+string
+-
+deque
+-
+
+../src/traffic/mitprotocolimpl.h
+mitprotocol.h
+../src/traffic/mitprotocol.h
+
+/home/code/mitprotocol/mitprotocol/test/mytest.cpp
+mycross.h
+-
+cstring
+-
+mitprotocol.h
+/home/code/mitprotocol/mitprotocol/test/mitprotocol.h
+mitprotocolimpl.h
+/home/code/mitprotocol/mitprotocol/test/mitprotocolimpl.h
+

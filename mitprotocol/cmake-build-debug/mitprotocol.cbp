@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mitprotocol"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/code/mitprotocol/mitprotocol/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/code/mitprotocol/mitprotocol/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/code/mitprotocol/mitprotocol/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mitprotocols">
+				<Option output="/home/code/mitprotocol/mitprotocol/cmake-build-debug/libmitprotocol.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/code/mitprotocol/mitprotocol/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/mycross"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/traffic"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/wfdb"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/easytar"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 mitprotocols"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mitprotocols/fast">
+				<Option output="/home/code/mitprotocol/mitprotocol/cmake-build-debug/libmitprotocol.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/code/mitprotocol/mitprotocol/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/mycross"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/traffic"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/wfdb"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/easytar"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 mitprotocols/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mymytest">
+				<Option output="/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/mymytest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/code/mitprotocol/mitprotocol/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/mycross"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/traffic"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/wfdb"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/easytar"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 mymytest"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mymytest/fast">
+				<Option output="/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/mymytest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/code/mitprotocol/mitprotocol/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/mycross"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/traffic"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/wfdb"/>
+					<Add directory="/home/code/mitprotocol/mitprotocol/src/easytar"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 mymytest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/code/mitprotocol/mitprotocol/src/easytar/easytar.cpp">
+			<Option target="mitprotocols"/>
+		</Unit>
+		<Unit filename="/home/code/mitprotocol/mitprotocol/src/easytar/easytar.h">
+			<Option target="mitprotocols"/>
+		</Unit>
+		<Unit filename="/home/code/mitprotocol/mitprotocol/src/traffic/mitprotocolimpl.cpp">
+			<Option target="mitprotocols"/>
+		</Unit>
+		<Unit filename="/home/code/mitprotocol/mitprotocol/src/traffic/mitprotocolimpl.h">
+			<Option target="mitprotocols"/>
+		</Unit>
+		<Unit filename="/home/code/mitprotocol/mitprotocol/src/wfdb/wfdblocal.cpp">
+			<Option target="mitprotocols"/>
+		</Unit>
+		<Unit filename="/home/code/mitprotocol/mitprotocol/src/wfdb/wfdblocal.h">
+			<Option target="mitprotocols"/>
+		</Unit>
+		<Unit filename="/home/code/mitprotocol/mitprotocol/test/mytest.cpp">
+			<Option target="mymytest"/>
+		</Unit>
+		<Unit filename="/home/code/mitprotocol/mitprotocol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/code/mitprotocol/mitprotocol/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

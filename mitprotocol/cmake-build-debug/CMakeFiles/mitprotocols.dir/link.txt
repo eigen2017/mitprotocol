@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmitprotocol.a  CMakeFiles/mitprotocols.dir/src/traffic/mitprotocolimpl.cpp.o CMakeFiles/mitprotocols.dir/src/wfdb/wfdblocal.cpp.o CMakeFiles/mitprotocols.dir/src/easytar/easytar.cpp.o
+/usr/bin/ranlib libmitprotocol.a

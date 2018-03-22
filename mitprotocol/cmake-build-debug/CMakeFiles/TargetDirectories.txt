@@ -1,0 +1,6 @@
+/home/code/mitprotocol/mitprotocol/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/code/mitprotocol/mitprotocol/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/code/mitprotocol/mitprotocol/cmake-build-debug/CMakeFiles/mitprotocols.dir
+/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/home/code/mitprotocol/mitprotocol/cmake-build-debug/test/CMakeFiles/mymytest.dir
