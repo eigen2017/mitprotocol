@@ -24,9 +24,6 @@ public:
     virtual void SetMitAnn(const deque <MitProtocolAnnNode> & annNodes, int sigStartPos, int sigLen);
 
 
-
-
-
 private:
     MitProtocolCallBack * mitProtocolCallBack;
     int isWrite;

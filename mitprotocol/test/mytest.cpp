@@ -5,7 +5,6 @@
 #include "mitprotocolimpl.h"
 
 
-
 class testclass : public MitProtocolCallBack
 {
 
@@ -59,10 +58,10 @@ void testclass::playhaha()
     }
 
     printf("size:[%d][%d,%d,%d,%d]\n",
-           dat.size(), dat[dat.size()-1], dat[dat.size()-2], dat[dat.size()-3], dat[dat.size() - 4]);
+           dat.size(), dat[dat.size() - 1], dat[dat.size() - 2], dat[dat.size() - 3], dat[dat.size() - 4]);
 
 
-    const deque <MitProtocolAnnNode> & nimei = mitProtocolInterface->GetMitAnn(843, sigLen-843);
+    const deque <MitProtocolAnnNode> & nimei = mitProtocolInterface->GetMitAnn(843, sigLen - 843);
 
     for (int i = 0; i < nimei.size(); i++)
     {
@@ -117,7 +116,7 @@ void testclass::TestFunc(deque <int> & param)
 
 testclass::testclass()
 {
-    mitProtocolInterface = (MitProtocolImpl *)CreateMitProtocolInterface();
+    mitProtocolInterface = (MitProtocolImpl *) CreateMitProtocolInterface();
     mitProtocolInterface->SetCallBack(this);
 }
 
